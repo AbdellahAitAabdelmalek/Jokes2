@@ -2,7 +2,7 @@ import React from 'react';
 import {SafeAreaView, useColorScheme} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {RandomJekes} from './src/modules/RandomJokes/RandomJekes';
+import {RandomJokes} from './src/modules/RandomJokes/RandomJokes';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={backgroundStyle}>
-      <RandomJekes />
+      <RandomJokes />
     </SafeAreaView>
   );
 };
